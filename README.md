@@ -9,6 +9,4 @@ This JavaScript pattern offers:
 5. 28 JavaScript lines to deliver a fully functional state management tool.
 6. There are no possible memory leaks on subscriptions, because in emit() is implemented an automatic check for unmounted Components. While in such cases emit() executes another branch, which simply removes the corresponding component from core.subscribers object.
 
-A detailed explanation can be found [here](https://medium.com/@agonqorolli/pure-javascript-pattern-for-state-management-75fedf0916f6). While the GitHub repo is [here](https://github.com/agonqorolli/controller).
-
-
+A detailed explanation can be found in a Medium article [here](https://medium.com/@agonqorolli/pure-javascript-pattern-for-state-management-75fedf0916f6). While the demo is hosted in surge [here](http://controller.surge.sh/).
